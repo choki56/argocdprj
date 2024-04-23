@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: pet-deploy
+    app: choki-deploy
   name: choki-deploy
 spec:
   replicas: 2
@@ -15,5 +15,5 @@ spec:
         app: choki-deploy
     spec:
       containers:
-      - image: choki09/agrocd:latest
+      - image: choki09/dog:latest
         name: pet
