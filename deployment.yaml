@@ -8,11 +8,11 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: pet-deploy
+      app: choki-deploy
   template:
     metadata:
       labels:
-        app: pet-deploy
+        app: choki-deploy
     spec:
       containers:
       - image: choki09/agrocd:latest
