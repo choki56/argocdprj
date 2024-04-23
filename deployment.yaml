@@ -15,5 +15,5 @@ spec:
         app: choki-deploy
     spec:
       containers:
-      - image: choki09/dog:20
+      - image: choki09/dog:21
         name: pet
